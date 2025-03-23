@@ -1,3 +1,4 @@
+import { arraysExample } from "./arrays-example";
 import "./style.css";
 import typescriptLogo from "./typescript.svg";
 
@@ -9,3 +10,5 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
     <h1>Algorithms & Data Structures</h1>
   </div>
 `;
+
+arraysExample();
