@@ -1,4 +1,5 @@
 import { arraysExample } from "./arrays-example";
+import { mergeSortedArray } from "./merge-sorted-arrays";
 import { reverseString } from "./reverse-string";
 import "./style.css";
 import typescriptLogo from "./typescript.svg";
@@ -13,4 +14,6 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
 `;
 
 // arraysExample();
-reverseString("hello"); // olleh
+// reverseString("hello"); // olleh
+
+console.log(mergeSortedArray([1, 5, 10, 100], [3, 7, 20]));
