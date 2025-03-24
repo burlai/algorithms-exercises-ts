@@ -1,4 +1,5 @@
 import { arraysExample } from "./arrays-example";
+import { reverseString } from "./reverse-string";
 import "./style.css";
 import typescriptLogo from "./typescript.svg";
 
@@ -11,4 +12,5 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   </div>
 `;
 
-arraysExample();
+// arraysExample();
+reverseString("hello"); // olleh
